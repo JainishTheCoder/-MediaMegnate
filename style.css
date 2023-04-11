@@ -1,0 +1,390 @@
+*{
+    padding: 0;
+    margin : 0;
+    box-sizing: border-box;
+    font-family:Ubuntu;
+}
+
+nav{
+    background-color: rgb(62, 62, 141);
+    height : 9vh;
+}
+
+nav h2{
+    color: whitesmoke;
+    padding-top: 11px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.intro > .introhead{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* margin-bottom: 25px; */
+}
+
+.intro > .introhead > h3{
+    font-size: 2em;
+    color: rgb(62, 62, 141);
+    text-align: center;
+}
+
+.intro > .introhead > p{
+    /* color: rgb(62, 62, 141); */
+    text-align: center;
+}
+
+.introimg img {
+    width: 45vw;
+}
+.
+.intro > .introhead > p{
+    color: rgb(62, 62, 141);
+    /* margin-top: 50px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px; */
+    font-size: 25px;
+}
+
+.head{
+    margin-bottom: 50px;
+}
+.head > p{
+    color: rgb(62, 62, 141);
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: -90px;
+    font-size: 1.5em;
+}
+.head > h3{
+    color:rgb(62, 62, 141);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top: 90px;
+}
+
+.boxflex{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.boxflex > .box {
+    /* width: 550px; */
+    max-width: 400px;
+    /* margin: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(84, 84, 189);
+    border-radius: 15px;
+    /* height: 450px; */
+    padding: 2em 0;
+    margin : 0px 1em;
+}
+
+.boxflex > .box > img{
+    /* margin-top: 55px; */
+    /* padding-left: 30%; */
+    width: 200px;
+    height: 200px;
+    
+}
+
+.boxflex > .box > h3{
+    text-align: center;
+    margin-top: 40px;
+    color: whitesmoke;
+}
+
+.boxflex > .box > p{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: whitesmoke;
+}
+.box img {
+    width: 35vw;
+}
+
+
+.cliflex{
+    display: flex;
+    margin: 35px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cliflex > .cli {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 7px;
+    background-color: rgb(222, 222, 223);
+    border-radius: 15px;
+    height: 500px;
+}
+
+.cliflex > .cli > img{
+    width: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.cliflex > .cli > h3{
+    text-align: center;
+    margin-top: 45px;
+    color: rgb(66, 66, 66);
+}
+
+.cliflex > .cli > p{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: rgb(80, 80, 80);
+}
+
+
+.whywe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5em;
+    margin-top: 70px;
+}
+
+.whywe > .whyweimg{
+    margin-right: 50px;
+}
+
+.whywe > .whywehead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: rgb(84, 84, 189);
+    border-radius: 15px;
+    padding: 2em;
+    gap: 2em;
+    min-width: 750px;
+}
+.whywe > .whywehead > h3{
+    color: whitesmoke;
+    font-size: 33px;
+
+}
+.whywe > .whywehead > p{
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+
+
+
+.founderintro{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 1em;
+    background-color: rgb(84, 84, 189);
+    border-radius: 15px;
+    max-width: 70vw;
+}
+
+.founderintro > .founderimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+.founderintro  > img{
+    border-radius: 15px;
+    width : 300px;
+    height: 300px;
+    margin: 40px 40px;
+}
+
+.founderinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.founderintro > .founderinfo > h2{
+    font-size: 2.7em;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.founderintro > .founderinfo > h3{
+    font-size: 2em;
+    margin-top: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.founderintro > .founderinfo > h4{
+    font-size: 1.3em;
+    margin-top: 15px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+
+footer{
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(78, 78, 78);
+}
+footer > p{
+    padding-top: 8px;
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+
+.contact{
+    width: 96vw;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact > .page{
+    /* width: 700px; */
+    height: 150px; 
+    background-color: rgb(84, 84, 189);
+    border-radius: 15px;
+    /* margin: 30px 570px ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.contact > .page{
+    font-size: 1.6em;
+}
+
+.contact > .page > p{
+    /* font-size: 2rem; */
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.contact > .page > h3{
+    /* font-size: 2rem; */
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:450px) {
+    .introimg img {
+        width: 95vw;
+    }
+    .whywe > .whyweimg{
+        display: none;
+    }
+.whywe > .whywehead{
+    width: 95vw;
+    font-size: 0.7em;
+    min-width: 0;
+}
+.contact > .page > p {
+    font-size: 14px;
+
+}
+.contact > .page > h3 {
+
+    /* font-size: 2vw; */
+    font-size: 14px;
+    min-width: 0;
+}
+
+
+
+.founderintro{
+    display: flex;
+    margin: 0px 1em;
+    justify-content: center;
+    gap: 1em;
+    background-color: rgb(84, 84, 189);
+    border-radius: 15px;
+    max-width: 95vw;
+    height: 600px;
+}
+
+
+
+.founderintro > img{
+    border-radius: 15px;
+    width : 220px;
+    height: 220px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.founderinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    margin-top: 160px;
+    margin-left: -320px;
+}
+
+.founderintro > .founderinfo > h2{
+    margin-top:200px;
+    font-size: 1.8em;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.founderintro > .founderinfo > h3{
+    font-size: 1em;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.founderintro > .founderinfo > h4{
+    font-size: 1em;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+
+    
+}
+
+
